@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "remoteUnlocked": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "tv:tv_remote"
+        }
+      }
+    },
+    "rewards": {
+      "function": "tv:craft_tv_remote"
+    }
+  }
+  

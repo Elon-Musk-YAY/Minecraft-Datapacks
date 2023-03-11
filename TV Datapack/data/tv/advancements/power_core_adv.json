@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "powerCoreUnlocked": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "tv:power_core"
+        }
+      }
+    },
+    "rewards": {
+      "function": "tv:craft_core"
+    }
+  }
+  

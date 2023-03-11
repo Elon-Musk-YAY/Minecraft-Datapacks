@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{CustomModelData:5,emerald_stone:1b,display:{Name:'{"text":"Emerald Stone", "italic": false, "color": "#61ed5c"}', Lore:['{"text":" "}', '{"text":"Right Click to Apply!", "color": "green", "bold": true, "italic": false}']}}

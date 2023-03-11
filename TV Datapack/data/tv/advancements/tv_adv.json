@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "tvUnlocked": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "tv:tv"
+        }
+      }
+    },
+    "rewards": {
+      "function": "tv:craft_tv"
+    }
+  }
+  

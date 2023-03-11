@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{CustomModelData:2,crimson_stone:1b,display:{Name:'{"text":"Crimson Stone", "italic": false, "color": "dark_red"}', Lore:['{"text":" "}', '{"text":"Right Click to Apply!", "color": "green", "bold": true, "italic": false}']}}

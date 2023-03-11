@@ -1,0 +1,1 @@
+kill @e[type=!llama, type=!player, type=!phantom, type=!armor_stand]

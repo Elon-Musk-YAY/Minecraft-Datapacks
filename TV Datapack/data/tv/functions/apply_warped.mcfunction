@@ -1,0 +1,14 @@
+execute at @s if score @s tv_ref_id matches 0 run tellraw @s {"text": "You don't have a TV!", "color": "red", "bold": true}
+execute as @e[tag=tv_stand] run scoreboard players set @s equal_rot 0 
+execute as @e[tag=tv_stand] run scoreboard players operation @s equal_rot = @s tv_ref_id
+execute as @e[tag=tv_stand] run scoreboard players operation @s equal_rot -= @p tv_ref_id
+
+execute at @s as @e[tag=tv_stand] if score @s equal_rot matches 0 unless score @s skin matches 1 if entity @p[nbt={Inventory:[{"id":"minecraft:warped_fungus_on_a_stick", tag:{warped_stone:1b}}]}] run execute at @s run particle minecraft:dust 0.332 0.332 1 1 ~ ~1 ~ 1 1 1 0 2000
+execute at @s as @e[tag=tv_stand] unless score @s skin matches 1 unless entity @p[nbt={Inventory:[{"id":"minecraft:warped_fungus_on_a_stick", tag:{warped_stone:1b}}]}] run tellraw @p [{"text": "You don't have a", "color":"red"}, {"text": " Warped Stone ", "color": "blue"},{"text": "in your inventory anymore!", "color": "red"}]
+execute at @s as @e[tag=tv_stand] if score @s equal_rot matches 0 unless score @s skin matches 1 if entity @p[nbt={Inventory:[{"id":"minecraft:warped_fungus_on_a_stick", tag:{warped_stone:1b}}]}] run tellraw @p [{"text": "Successfuly applied the ", "color": "green"}, {"text": "Warped", "color": "blue"},{"text": " skin to your TV!", "color": "green"}]
+execute at @s as @e[tag=tv_stand] if score @s equal_rot matches 0 if score @s skin matches 2 if entity @p[nbt={Inventory:[{"id":"minecraft:warped_fungus_on_a_stick", tag:{warped_stone:1b}}]}] run execute as @p run function tv:give_crimson
+execute at @s as @e[tag=tv_stand] if score @s equal_rot matches 0 if score @s skin matches 3 if entity @p[nbt={Inventory:[{"id":"minecraft:warped_fungus_on_a_stick", tag:{warped_stone:1b}}]}] run execute as @p run function tv:give_soul
+execute at @s as @e[tag=tv_stand] if score @s equal_rot matches 0 if score @s skin matches 4 if entity @p[nbt={Inventory:[{"id":"minecraft:warped_fungus_on_a_stick", tag:{warped_stone:1b}}]}] run execute as @p run function tv:give_emerald
+execute at @s as @e[tag=tv_stand] if score @s equal_rot matches 0 unless score @s skin matches 1 if entity @p[nbt={Inventory:[{"id":"minecraft:warped_fungus_on_a_stick", tag:{warped_stone:1b}}]}] run scoreboard players set @s skin 6
+execute at @s as @e[tag=tv_stand] if score @s equal_rot matches 0 if score @s skin matches 6 if entity @p[nbt={Inventory:[{"id":"minecraft:warped_fungus_on_a_stick", tag:{warped_stone:1b}}]}] run clear @p warped_fungus_on_a_stick{warped_stone:1b} 1
+execute at @s as @e[tag=tv_stand] if score @s equal_rot matches 0 if score @s skin matches 6 run scoreboard players set @s skin 1

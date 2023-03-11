@@ -1,0 +1,1 @@
+give @s emerald{CustomModelData:27, display:{Name:'{"text":"TV", "color": "green", "italic": false, "bold":true}',Lore:['{"text": " "}', '{"text":"Use a TV remote to place this!", "color": "gray", "bold": true, "italic":false}']}}

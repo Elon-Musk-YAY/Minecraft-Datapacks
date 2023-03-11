@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "lightsaberUnlocked": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "lightsaber:lightsaber"
+        }
+      }
+    },
+    "rewards": {
+      "function": "lightsaber:craft_lightsaber"
+    }
+  }
+  

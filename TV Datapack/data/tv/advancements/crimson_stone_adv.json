@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "crimsonUnlocked": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "tv:crimson_stone"
+        }
+      }
+    },
+    "rewards": {
+      "function": "tv:craft_crimson"
+    }
+  }
+  

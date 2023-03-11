@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{CustomModelData:4,soul_stone:1b,display:{Name:'{"text":"Soul Stone", "italic": false, "color": "#00ccb8"}', Lore:['{"text":" "}', '{"text":"Right Click to Apply!", "color": "green", "bold": true, "italic": false}']}}

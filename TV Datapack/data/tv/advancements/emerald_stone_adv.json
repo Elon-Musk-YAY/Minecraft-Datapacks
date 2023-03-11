@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "emeraldUnlocked": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "tv:emerald_stone"
+        }
+      }
+    },
+    "rewards": {
+      "function": "tv:craft_emerald"
+    }
+  }
+  

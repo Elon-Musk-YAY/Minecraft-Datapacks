@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{CustomModelData:3,warped_stone:1b ,display:{Name:'{"text":"Warped Stone", "italic": false, "color": "blue"}', Lore:['{"text":" "}', '{"text":"Right Click to Apply!", "color": "green", "bold": true, "italic": false}']}}

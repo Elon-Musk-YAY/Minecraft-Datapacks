@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "soulUnlocked": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "tv:soul_stone"
+        }
+      }
+    },
+    "rewards": {
+      "function": "tv:craft_soul"
+    }
+  }
+  
